@@ -1,0 +1,15 @@
+name: gha-test-self-runner
+
+ on:
+  push
+
+jobs:
+ divya-job1:
+  runs-on: self-hosted
+
+
+  steps:
+
+   -name: message
+    run: ech "welcome to Divya's GHA"
+   
