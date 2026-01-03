@@ -1,6 +1,6 @@
 name: gha-test-self-runner
 
- on:
+on:
   push
 
 jobs:
@@ -10,6 +10,6 @@ jobs:
 
   steps:
 
-   -name: message
-    run: ech "welcome to Divya's GHA"
+    - name: message
+      run: echo"welcome to Divya's GHA"
    
